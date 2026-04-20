@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Projects — Souradeep De</title>
+  <meta name="description" content="Browse all data analytics projects by Souradeep De, including dashboards, analysis, and visualizations built with Python, SQL, Tableau, and Power BI." />
+  <meta name="author" content="Souradeep De" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="All Projects — Souradeep De" />
+  <meta property="og:description" content="Browse all data analytics projects by Souradeep De." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>" />
+</head>
+<body>
+
+  <!-- ============ MOBILE OVERLAY ============ -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-icon">SD</span>
+        SOURADEEP DE
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#education">Education</a>
+        <a href="index.html#contact" class="nav-cta">Get In Touch</a>
+      </div>
+      <div class="nav-hamburger" id="navHamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============ ALL PROJECTS SECTION ============ -->
+  <section class="projects projects-page" id="projects">
+    <div class="container">
+      <div class="projects-header reveal">
+        <h1 class="section-heading">All<br/>Projects</h1>
+        <a href="index.html" class="btn btn-secondary" id="back-home-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+          Back to Home
+        </a>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: E-Commerce Sales Dashboard -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/project-ecommerce.png" alt="E-Commerce Sales Dashboard — Tableau visualization showing monthly revenue, top categories, and regional sales" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>Personal Project</span>
+              <span>Jan 2025</span>
+            </div>
+            <h3 class="project-name">E-Commerce Sales Dashboard</h3>
+            <p class="project-desc">
+              Analyzed 50,000+ rows of transactional data using Pandas to uncover sales trends and customer buying patterns. Built an interactive Tableau dashboard with KPIs including monthly revenue, top-selling categories, and regional sales performance. Identified a 22% revenue dip in Q3 caused by cart abandonment.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Pandas</span>
+              <span class="project-tag">Tableau</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: HR Attrition Analysis -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/project-hr.png" alt="HR Attrition Analysis — Seaborn visualizations showing attrition predictors and logistic regression results" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>Open Dataset</span>
+              <span>Nov 2024</span>
+            </div>
+            <h3 class="project-name">HR Attrition Analysis</h3>
+            <p class="project-desc">
+              Performed EDA on IBM HR Analytics dataset to identify key drivers of employee attrition. Created visualizations revealing that overtime and low job satisfaction were the top two predictors. Built a logistic regression model achieving 84% accuracy in predicting employee churn.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Seaborn</span>
+              <span class="project-tag">Scikit-learn</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: COVID-19 Trend Analysis -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/project-covid.png" alt="COVID-19 Trend Analysis in India — Power BI dashboard with infection waves and vaccination trends" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>Government Open Data</span>
+              <span>Sep 2024</span>
+            </div>
+            <h3 class="project-name">COVID-19 Trend Analysis in India</h3>
+            <p class="project-desc">
+              Queried and cleaned COVID-19 state-wise data using SQL, resolving inconsistencies across 30+ data sources. Visualized infection and vaccination trends over 18 months using Power BI with dynamic slicers. Highlighted correlation between vaccination rollouts and case decline.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">SQL</span>
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Power BI</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER SECTION ============ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Left card: connect -->
+        <div class="footer-card footer-connect reveal">
+          <h3 class="footer-connect-title">Let's<br/>connect<br/>and chat</h3>
+          <a href="mailto:souradeepde2021@gmail.com" class="footer-email" id="footer-email-link">
+            SOURADEEPDE2021@GMAIL.COM
+            <span class="footer-email-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </span>
+          </a>
+        </div>
+
+        <!-- Right card: social -->
+        <div class="footer-card footer-social reveal">
+          <span class="footer-social-label">FOLLOW ME! 👀🤩</span>
+          <div class="footer-social-links">
+            <a href="https://www.linkedin.com/in/souradeepdeofficial/" target="_blank" rel="noopener noreferrer" class="footer-social-link" id="footer-linkedin">LinkedIn</a>
+            <a href="https://github.com/souradeepdeofficial" target="_blank" rel="noopener noreferrer" class="footer-social-link" id="footer-github">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <div class="footer-logo">
+          <span>SD</span>
+          SOURADEEP DE
+        </div>
+        <span class="footer-copy">© 2026 Souradeep De · Built with ☕ in Kolkata</span>
+        <a href="index.html#contact" class="nav-cta" id="footer-cta">Get In Touch</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
